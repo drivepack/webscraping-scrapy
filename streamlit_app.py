@@ -1,6 +1,7 @@
 import streamlit as st
 from pymongo import MongoClient
 import pandas as pd
+import urllib.parse   # import the urllib.parse module
 
 # Set up MongoDB connection
 username = urllib.parse.quote_plus('temidayodeveloper')
