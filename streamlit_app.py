@@ -6,9 +6,8 @@ import urllib.parse
 # Set up MongoDB connection
 username = urllib.parse.quote_plus('temidayodeveloper')
 password = urllib.parse.quote_plus('temidayodeveloper')
-client = MongoClient(f'mongodb+srv://{username}:{password}@cluster0.mongodb.net/?retryWrites=true&w=majority')
 
-# Select the database and collection
+client = MongoClient(f'mongodb+srv://{username}:{password}@cluster0.sngd13i.mongodb.net/?retryWrites=true&w=majority')
 db = client['Cluster0']
 collection = db['google_shopping']
 
